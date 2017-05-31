@@ -1,0 +1,160 @@
+
+
+/*Normalizer*/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/*Normalizer*/
+
+
+body {
+  background-color: black;
+}
+
+a {
+  color: #2B2F26;
+}
+
+a:hover {
+  color: #CD5D67;
+}
+
+
+.nav-bar {
+  position: fixed; top: 0;
+  width: 89%;
+  background-color: #FFFFFF;
+  font-family: "Roboto";
+  font-size: 19px;
+  padding: 25px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+  list-style: none;
+  margin-left: 80px;
+  box-shadow: 0 0px 3px 0 grey;
+}
+
+.nav-item {
+  margin-right: 1.8em;
+  margin-left: 1.8em;
+  display: inline-block;
+}
+
+.logo {
+  background-image: url("images/bent-creek-logo.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  position: absolute;
+  background-position: center;
+  width: 5em;
+  height: 6em;
+  left: -.5em;
+  top: -1em;
+}
+
+.background {
+  margin-top: 73px;
+  margin-right: 10px;
+  margin-left: 80px;
+}
+
+.backgroundimg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 35em;
+  width: 80.1em;
+}
+
+#backgroundcac {
+  background-image: url(images/background-2.jpg);
+}
+
+input[type=text] {
+    width: 90%;
+    border-style: solid;
+    border-color: black;
+    border-bottom-width: thin;
+    margin-top: -30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+
+input[type=email] {
+    width: 90%;
+    border-bottom: 25px;
+    border-style: solid;
+    border-color: black;
+    border-bottom-width: thin;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+input[type=submit] {
+    margin-top: 10px;
+    background-color: #817461;
+    color: white;
+    font-size: 20px;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #CD5D67;
+}
+
+.buttonholder {
+  text-align: center;
+}
+
+.container {
+    background-color: white;
+    padding: 10px;
+    margin-left: 350px;
+    margin-top: -315px;
+    height: 390px;
+    width: 600px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form-primarytxt {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Lora";
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.form-secondarytxt {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Lora";
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+label {
+  margin-left: -2px;
+  margin-bottom: -20px;
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #817461;
+  padding: 25px;
+}
